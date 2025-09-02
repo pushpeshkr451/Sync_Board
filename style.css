@@ -1,0 +1,9 @@
+/* Use the 'Inter' font family */
+body {
+  font-family: "Inter", sans-serif;
+  overscroll-behavior: none;
+}
+/* Ensure the canvas doesn't trigger unwanted touch actions on mobile */
+#whiteboard {
+  touch-action: none;
+}
